@@ -523,7 +523,7 @@
 
 .slider-container {
   width: 100%;
-  max-width: 800px;
+  max-width: 1080px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -547,46 +547,25 @@
 
 .slider-img {
   max-width: 100%;
-  height: auto;
+  height: 500px;
   display: block;
+  object-fit: contain;
+  object-position: center;
 }
 
-.img_lct {
+.container_img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  height: 300px;
+  width: 100%;
 }
 
-.image_lct img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.img_olim {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-
-.image_olim img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
+.img_lct,
+.img_olim,
 .img_r1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-
-.image_r1 img {
+  object-fit: cover;
   max-width: 100%;
-  height: auto;
   display: block;
 }
 
