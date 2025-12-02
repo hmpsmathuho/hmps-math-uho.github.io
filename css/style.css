@@ -552,18 +552,39 @@
 }
 
 .img_lct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.image_lct img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
 .img_olim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.image_olim img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
 .img_r1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.image_r1 img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -643,7 +664,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px; /* Adjust the margin as needed */
+  margin: 20px;
 }
 
 .image-containerku img {
